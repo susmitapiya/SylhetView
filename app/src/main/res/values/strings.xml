@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Sylhet View</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="google_maps_key">AIzaSyBo7gFBFEZPEy0syfaBs5xs9dt7xoIJC98</string>
+
+    <string name="action_settings">About</string>
+    <string name="title_activity_developers">Developers</string>
+</resources>

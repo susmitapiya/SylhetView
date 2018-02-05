@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.user.myapplication">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="com.example.monir.googlemapsactivity.permission.MAPS_RECEIVE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Splash_Screen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".College_list"
+            android:label="College List" />
+        <activity
+            android:name=".School_list"
+            android:label="School List" />
+        <activity
+            android:name=".University_list"
+            android:label="University List" />
+        <activity
+            android:name=".Airport_list"
+            android:label="Airport List" />
+        <activity
+            android:name=".Resort_list"
+            android:label="Resort List" />
+        <activity
+            android:name=".Medical_College_list"
+            android:label="Medical College List" />
+        <activity
+            android:name=".Hotel_list"
+            android:label="Hotel List" />
+        <activity
+            android:name=".Restaurant_list"
+            android:label="Restaurant List" />
+        <activity
+            android:name=".Bank_list"
+            android:label="Bank List" />
+        <activity
+            android:name=".College"
+            android:label="College" />
+        <activity
+            android:name=".School"
+            android:label="School" />
+        <activity
+            android:name=".University"
+            android:label="University" />
+        <activity
+            android:name=".Resort"
+            android:label="Resort" />
+        <activity
+            android:name=".Medical_College"
+            android:label="Medical College" />
+        <activity
+            android:name=".Hotel1"
+            android:label="Hotel" />
+        <activity
+            android:name=".Bank"
+            android:label="Bank" />
+        <activity
+            android:name=".Airpot"
+            android:label="Airpot" />
+        <activity
+            android:name=".Bus_Station"
+            android:label="Bus Station" />
+        <activity
+            android:name=".Bus_Station1"
+            android:label="Bus Station" />
+        <activity
+            android:name=".Railway_Station_list"
+            android:label="Railway Station list" />
+        <activity
+            android:name=".Railway_Station"
+            android:label="Railway Station" />
+        <activity
+            android:name=".Hospital_list"
+            android:label="Hospital list" />
+        <activity
+            android:name=".Shopping_Mall_list"
+            android:label="Shopping Mall List" />
+        <activity
+            android:name=".Hospital"
+            android:label="Hospital" />
+        <activity
+            android:name=".Shopping_Mall"
+            android:label="Shopping Mall" />
+        <activity
+            android:name=".Mazar_list"
+            android:label="Mazar list" />
+        <activity
+            android:name=".Mazar"
+            android:label="Mazar" />
+        <activity
+            android:name=".Restaurant"
+            android:label="Restaurant" />
+        <activity
+            android:name=".Emergency_number"
+            android:label="Emergency Number" />
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <activity
+            android:name=".Tourist_Places_in_Sylhet"
+            android:label="Tourist Places in Sylhet" />
+        <activity
+            android:name=".Tourist_Places_list"
+            android:label="Tourist Places  List" />
+        <activity
+            android:name=".Museum_list"
+            android:label="Museum List" />
+        <activity
+            android:name=".Museum"
+            android:label="Museum" />
+        <activity
+            android:name=".Developers"
+            android:label="About Developers" />
+        <activity android:name=".hangout_place" />
+        <activity android:name=".hangout_place_list"></activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_tourist__places_in__sylhet"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="7dp"
+    android:paddingRight="7dp"
+    tools:context="com.example.user.myapplication.Tourist_Places_in_Sylhet">
+
+    <ImageView
+        android:id="@+id/image1"
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:src="@drawable/jaflong"
+        android:scaleType="fitXY"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="2"
+        android:orientation="horizontal"
+        >
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="জাফলং"
+            />
+
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="jaflong"/>
+
+
+    </LinearLayout>
+
+    <TextView
+        android:text="JAFLONG"
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="30dp"
+        android:padding="3dp"
+        />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/overview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" বিবরণঃ
+অনিয়ন্ত্রিত পাথর উত্তোলন ও পাথরভাঙ্গা ( ক্রাশার) মেশিনের উৎপাতে আগের সেই সৌন্দর্য্য অবশিষ্ট না থাকলে ও এখনো সিলেটে বেড়াতে আসা পর্যটকদের কাছে জাফলং ‘মাস্ট সি’ গন্তব্য। উত্তর খাসিয়া হিলস থেকে নেমে আসা ডাউকী নদী বাংলাদেশে প্রবেশ করেছে পিয়াইন নাম নিয়ে, এই পিয়াইন নদীর অববাহিকাতেই জাফলং- সিলেট জেলার গোয়াইনঘাট উপজেলার পূর্ব জাফলং ইউনিয়নে। সিলেট শহর থেকে ৬২ কিমি উত্তর-পূর্বে এর অবস্থান, গাড়ী থেকে নেমে ভাড়ার নৌকা নিয়ে জিরোপয়েন্টে যাওয়া যায়, যেখানে রয়েছে ডাউকি’র ঝুলন্ত সেতু। খেয়া বা ভাড়া নৌকায় নদী পেরিয়ে পশ্চিম তীরে গেলে খাসিয়া আদিবাসীদের গ্রাম সংগ্রামপুঞ্জি ও নকশীয়াপুঞ্জি। নদীর পাড় থেকে স্থানীয় বাহনযোগে এসব পুঞ্জী ঘুরে বেড়ানো যায়। নকশীয়াপুঞ্জির পাশেই জাফলং চা বাগান। কোন কোন পর্যটক চা বাগানে ঘুরে বেড়াতে ও পছন্দ করেন।
+
+জাফলং যাওয়ার সাত কিঃমি আগে তামাবিলে ও পর্যটকরা যাত্রাবিরতি করেন। তামাবিল মুলতঃ ল্যান্ড কাস্টমস ও ইমিগ্রেশন চেকপোষ্ট। কাস্টমস অফিসের ঠিক পেছনেই সীমান্তরেখা ঘেঁষে অবস্থান করছে মুক্তিযুদ্ধে শহীদ মুক্তিযোদ্ধাদের গনকবর।
+
+তামাবিল যাওয়ার আগে জৈন্তিয়াপুর উপজেলা সদর। ইতিহাসপ্রিয় পর্যটকরা এখানে পুরনো রাজবাড়ীর ধ্বংসাবশেষ দেখে যেতে পারেন। উল্লেখ্য যে, প্রাগৈতিহাসিককাল থেকে জৈন্তিয়া ছিলো একটি স্বাধীন রাজ্য যা ১৮৩০ সালে বৃটিশ সাম্রাজ্যের দখলভুক্ত হয়। প্রাচীন রাজ্য জৈন্তিয়ার গুরুত্বপূর্ণ জনগোষ্ঠী খাসিয়াদের স্মৃতিচিহ্ন হিসেবে এখনো কিছু ম্যাগালিথিক স্মৃতিস্তম্ভ চোখে পড়ে। জ়ৈন্তিয়াপুর উপজেলা অফিসের কাছেই রয়েছে সাইট্রাস গবেষনা কেন্দ্র। তেজপাতা, লেবু, সাতকড়া সহ বিভিন্ন প্রজাতির ফলের বাগান রয়েছে এখানে, এই গবেষনা কেন্দ্র থেকে অদূরেই বেশ কয়েকটি ঝর্ণা দৃশ্যমান।
+
+জৈন্তিয়াপুর ও তামাবিল এর মাঝামঝি রয়েছে শ্রীপুর। হাতের বামে শ্রীপুর পিকনিক সেন্টার, ডানপাশে একটূ এগিয়ে গেলেই শ্রীপুর পাথর কোয়ারী।
+
+বিশেষ করে বর্ষাকালে জৈন্তাপুর থেকে তামাবিল পর্যন্ত ভ্রমন এক অনন্য অভিজ্ঞতা। সড়কের পাশেই মাথা উঁচু করে দাঁড়িয়ে আছে বিশাল খাসিয়া পর্বত, ঘনসবুজে ঢাকা। এই সবুজের মধ্যে সাদা মেঘের দূরন্ত খেলা আর অনেকগুলো ঝর্ণার উচ্ছ্বাস।
+সিলেট থেকে দূরত্বঃ
+সিলেট শহর থেকে ৬২ কিমি উত্তর-পূর্বে এর অবস্থান।
+ভাড়াঃ
+সরাসরি জাফলং যেতে সিলেট থেকে গাড়ীতে সময় লাগে একঘন্টা ত্রিশ মিনিটের মতো। জৈন্তাপুর, শ্রীপুর, তামাবিলে যাত্রাবিরতি করলে সময় সেই অনুযায়ী বেশী লাগবে। সিলেট শহর থেকে ৬-৮ জন বহনকারী মাইক্রো ভাড়া হতে পারে ৪৫০০ - ৫০০০ টাকার মধ্যে। ৯-১২ জন বহনকারী মাইক্রো ভাড়া হতে পারে ৫৫০০ - ৬০০০ টাকার মধ্যে। নৌকা নিয়ে জিরোপয়েন্টে যেতে স্থানীয় নৌকায় ৫০০ টাকার মতো খরচ পড়ে।
+"
+            android:textSize="18dp"
+            />
+
+    </ScrollView>
+
+</LinearLayout>
